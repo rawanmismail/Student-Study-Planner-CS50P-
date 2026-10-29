@@ -27,6 +27,3 @@ During development, several key architectural and structural decisions were made
    ```bash
    python project.py
 
-### Demonstartion Video Link
-https://www.youtube.com/watch?v=xcMM3Kdaq8Y
-
