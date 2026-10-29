@@ -19,14 +19,3 @@ During development, several key architectural and structural decisions were made
 - **In-Memory Lists vs. Direct Database/File Reads**: Global list structures (`tasks`, `completed`, and `reminders`) are kept in memory during runtime rather than constantly reading/writing to the disk on every input. This speeds up execution and gives the user control over when to save or load state via dedicated menu options.
 - **JSON for Storage**: CSV files were considered initially, but nested dictionaries with varying attributes (like notes or custom priorities) were neater to represent using standard JSON formatting.
 
----
-
-### How to Run
-
-1. Open your terminal in the project directory:
-   ```bash
-   python project.py
-
-### Demonstartion Video Link
-https://www.youtube.com/watch?v=xcMM3Kdaq8Y
-
